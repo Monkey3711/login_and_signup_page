@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.Right-main{
+    margin-top: -175px;
+    margin-left: 490px;
+    width: 1105px;
+    position: absolute;
+    z-index: -1;
+}
+
+.exitbut{
+    width: 20px;
+    margin-left: 630px;
+    margin-top: 40px;
+    position: absolute;
+}
+
+h1{
+    margin-left: 167px ;
+    margin-top: 130px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 30px;
+
+}
+
+h3{
+    margin-left: 170px;
+    font-family: Roboto;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.Formname{
+    margin-left: 170px;
+    font-family: Roboto;
+    font-weight: 300;
+    margin-top: 40px;
+    font-size: 13px;
+}
+
+#name{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    width: 300px;
+}
+
+#mail{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    margin-top: -40px;
+    width: 300px;
+}
+
+#passeord{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    margin-top: -40px;
+    width: 300px;
+}
+
+#Create-acc{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: transparent;
+    color: white;
+    background-color: black;
+    font-family: Roboto;
+    font-weight: 500px;
+    position: absolute;
+}
+
+#Create-acc:hover{
+    color: black;
+    background-color: whitesmoke;
+    -webkit-box-shadow: -2px 3px 210px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 3px 210px -10px rgba(0,0,0,0.75);
+    box-shadow: -2px 3px 210px -10px rgba(0,0,0,0.75);
+}
+
+#Google{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: transparent;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-weight: 500px;
+    -webkit-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+    position: absolute;
+    margin-top: 60px;
+    z-index: -1;
+    text-indent: 24px;
+    font-size: 12px;
+}
+
+#Google:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+.google-logo{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 77px;
+    width: 20px;
+}
+
+#twitter{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: transparent;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-weight: 500px;
+    -webkit-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+    position: absolute;
+    margin-top: 120px;
+    z-index: -2;
+    text-indent: 24px;
+    font-size: 12px;
+}
+
+#twitter:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+#twitter-logo{
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 72px;
+    width: 30px;
+}
